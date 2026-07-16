@@ -1,24 +1,31 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { useEffect } from "react";
 
-// No head() here: the home route inherits title/description/og/twitter from
-// __root.tsx, and ships no og:image so serve-time hosting can inject the
-// project's social preview (explicit og:image or latest screenshot).
 export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title: "Mary's Hair Salon — Hair Styling, Colouring & Extensions in Southampton" },
+      { name: "description", content: "Mary's Hair Salon on Shirley Road, Southampton. Expert hair cutting, colouring, balayage, treatments and premium human hair extensions. Call or WhatsApp to book." },
+      { property: "og:title", content: "Mary's Hair Salon — Southampton" },
+      { property: "og:description", content: "Professional hair styling, colouring, treatments and premium human hair extensions in Southampton." },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: "/" },
+      { property: "og:image", content: "/salon/images/hero.jpg" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
+  }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
+  // The site is a fully static bundle in /public/salon/ (ready for GitHub Pages).
+  // Preview it here by loading the static index.html.
+  useEffect(() => {
+    window.location.replace("/salon/index.html");
+  }, []);
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
+    <div style={{ minHeight: "100vh", display: "grid", placeItems: "center", background: "#F8F2EC", fontFamily: "system-ui" }}>
+      <p style={{ color: "#2B2B2B" }}>Loading Mary's Hair Salon…</p>
     </div>
   );
 }
