@@ -42,20 +42,17 @@ const SERVICES = [
   { icon: "✽",  name: "Hair Consultation",       price: "Free",      desc: "Sit down with a stylist to plan your look." },
 ];
 
-/* ---------- Gallery (12 slots — REPLACE files in /images to swap) ---------- */
+/* ---------- Gallery (REPLACE files in /images/gallery to swap) ---------- */
 const GALLERY = [
-  { src: "images/g1.jpg", alt: "Glossy balayage waves" },
-  { src: "images/g2.jpg", alt: "Long honey blonde hair extensions" },
-  { src: "images/g3.jpg", alt: "Bridal updo with delicate accessories" },
-  { src: "images/g4.jpg", alt: "Stylist working on caramel waves" },
-  { src: "images/g5.jpg", alt: "Sleek dark bob cut" },
-  { src: "images/g6.jpg", alt: "Copper red colour transformation" },
-  { src: "images/ba.jpg", alt: "Before and after transformation" },
-  { src: "images/g1.jpg", alt: "Balayage detail" },
-  { src: "images/g2.jpg", alt: "Extensions styling" },
-  { src: "images/g5.jpg", alt: "Precision bob" },
-  { src: "images/g6.jpg", alt: "Rich colour finish" },
-  { src: "images/g3.jpg", alt: "Occasion hair styling" },
+  { src: "images/gallery/m1.jpg", alt: "Intricate freestyle cornrow pattern" },
+  { src: "images/gallery/m2.jpg", alt: "Long platinum blonde box braids" },
+  { src: "images/gallery/m3.jpg", alt: "Neat side-swept cornrows with length" },
+  { src: "images/gallery/m4.jpg", alt: "Chunky black twist braids" },
+  { src: "images/gallery/m5.jpg", alt: "Sculpted quiff with tapered fade" },
+  { src: "images/gallery/m6.jpg", alt: "Straight-back stitch cornrows" },
+  { src: "images/gallery/m7.jpg", alt: "Locs styled into a high ponytail" },
+  { src: "images/gallery/m8.jpg", alt: "Bleached blonde natural curls" },
+  { src: "images/gallery/m9.jpg", alt: "Glossy caramel highlighted curls" },
 ];
 
 /* Wire up */
