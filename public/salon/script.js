@@ -114,7 +114,7 @@ if (servicesGrid) {
   `).join("");
 }
 
-const galleryEl = document.getElementById("gallery");
+const galleryEl = document.getElementById("galleryGrid");
 if (galleryEl) {
   galleryEl.innerHTML = GALLERY.map((g, i) => `
     <button class="gallery__item reveal" data-index="${i}" aria-label="Open image ${i + 1}">
