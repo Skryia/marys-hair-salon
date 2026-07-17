@@ -1,3 +1,19 @@
+/* ============ Skryia credit bar ============ */
+.credit-bar {
+  background: #1a1a1a;
+  color: #f8f2ec;
+  text-align: center;
+  padding: 0.75rem 1rem;
+  font-family: "Inter", system-ui, sans-serif;
+  font-size: 0.8125rem;
+  letter-spacing: 0.04em;
+}
+.credit-bar a {
+  color: #C89B6D;
+  text-decoration: none;
+  font-weight: 500;
+}
+.credit-bar a:hover { text-decoration: underline; }
 /* =========================================================
    Mary's Hair Salon — luxury salon styling
    Palette: #C89B6D primary · #F8F2EC secondary · #2B2B2B accent · #FFFFFF bg
