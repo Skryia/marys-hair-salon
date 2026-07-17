@@ -30,16 +30,15 @@ const SALON = {
 
 /* ---------- Services (edit to adjust menu / prices) ---------- */
 const SERVICES = [
-  { icon: "✂",  name: "Ladies Cut & Finish",     price: "£35",       desc: "Precision cut with a polished blow-dry finish." },
-  { icon: "❦",  name: "Wash, Cut & Blow Dry",    price: "£40",       desc: "Full cleanse, tailored cut and styled blow-dry." },
-  { icon: "❋",  name: "Hair Colouring",          price: "From £55",  desc: "Rich, long-lasting colour to suit your style." },
-  { icon: "✧",  name: "Highlights",              price: "From £65",  desc: "Hand-placed highlights for dimension and glow." },
-  { icon: "☀",  name: "Balayage",                price: "From £85",  desc: "Sun-kissed, freehand painted colour." },
-  { icon: "♥",  name: "Hair Treatment",          price: "£25",       desc: "Nourishing salon-grade repair treatment." },
-  { icon: "✦",  name: "Human Hair Extensions",   price: "From £150", desc: "100% real hair, professionally fitted." },
-  { icon: "❉",  name: "Extension Colour Matching", price: "£35",     desc: "Bespoke colour blending to your natural shade." },
-  { icon: "♛",  name: "Bridal Hair Styling",     price: "From £95",  desc: "Elegant looks for your special day." },
-  { icon: "✽",  name: "Hair Consultation",       price: "Free",      desc: "Sit down with a stylist to plan your look." },
+  { icon: "✂",  name: "Dry Trim",                    price: "From £5.00",  desc: "Quick tidy-up trim on dry hair." },
+  { icon: "♛",  name: "Hair Up / Prom / Bridal",     price: "From £25.00", desc: "Elegant occasion styling for prom, weddings and events." },
+  { icon: "❋",  name: "Meche",                       price: "From £43.00", desc: "Foil highlights for lift, dimension and shine." },
+  { icon: "♥",  name: "Relaxer With Treatment",      price: "£45.00",      desc: "Smoothing relaxer paired with a nourishing treatment." },
+  { icon: "❦",  name: "Braid Straight",              price: "£35 – £45",   desc: "Neat straight-back braids, priced by length and density." },
+  { icon: "✦",  name: "Ghana Braid",                 price: "£45 – £65",   desc: "Classic Ghana cornrow styles, tailored to your look." },
+  { icon: "❉",  name: "Twist",                       price: "£50 – £90",   desc: "Two-strand twists in a range of sizes and lengths." },
+  { icon: "✽",  name: "Kids Braids with Extension",  price: "£35 – £40",   desc: "Gentle braided styles with extensions for children." },
+  { icon: "✧",  name: "Dreadlocks Tightening",       price: "£40 – £60",   desc: "Root maintenance and retwist to keep locs neat." },
 ];
 
 /* ---------- Gallery (REPLACE files in /images/gallery to swap) ---------- */
