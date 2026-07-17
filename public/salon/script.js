@@ -9,8 +9,8 @@ const SALON = {
   phoneDisplay: "+44 (0) 0000 000000",
 
   // WhatsApp uses digits only, no + or spaces
-  whatsapp: "447700900000",
-  whatsappDisplay: "+44 7700 900000",
+  whatsapp: "447738003139",
+  whatsappDisplay: "07738 003139",
   whatsappMessage: "Hi Mary's Hair Salon, I'd like to book an appointment.",
 
   address: "Shirley Road, Southampton, United Kingdom",
